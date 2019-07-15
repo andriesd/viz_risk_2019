@@ -1,0 +1,26 @@
+[general]
+creator=R package 'raster'
+created=2019-06-26 13:48:10
+[georeference]
+nrows=308
+ncols=543
+xmin=105596.036781364
+ymin=2913479.90802468
+xmax=920096.036781364
+ymax=3375479.90802468
+projection=+proj=tmerc +lat_0=0 +lon_0=84 +k=0.9996 +x_0=500000 +y_0=0 +datum=WGS84 +units=m +no_defs +ellps=WGS84 +towgs84=0,0,0
+[data]
+datatype=FLT4S
+byteorder=little
+nbands=1
+bandorder=BIL
+categorical=FALSE
+minvalue=195
+maxvalue=4939.33349609375
+nodatavalue=-3.4e+38
+[legend]
+legendtype=
+values=
+color=
+[description]
+layername=Annual_Precip

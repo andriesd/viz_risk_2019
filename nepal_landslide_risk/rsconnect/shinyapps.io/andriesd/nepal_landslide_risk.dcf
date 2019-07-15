@@ -1,0 +1,12 @@
+name: nepal_landslide_risk
+title: nepal_landslide_risk
+username:
+account: andriesd
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1025903
+bundleId: 2233574
+url: https://andriesd.shinyapps.io/nepal_landslide_risk/
+when: 1563204086.20303
+asMultiple: FALSE
+asStatic: FALSE
