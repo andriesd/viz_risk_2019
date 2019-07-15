@@ -177,7 +177,7 @@ server <- function(input, output, session) {
     output$NepalRain <- renderLeaflet({
      
         leaflet() %>%
-            addTiles("https://api.mapbox.com/styles/v1/dainaandries/cjxxfhzrvbztm1dtev60x044h/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZGFpbmFhbmRyaWVzIiwiYSI6ImNqeGR0OGk5czA0M2gzc3BidXcydXE5YXYifQ.I0GBgTVXILAC1C5_AlZ5Dg"
+            addTiles("https://api.mapbox.com/styles/v1/dainaandries/cjxxfhzrvbztm1dtev60x044h/tiles/{z}/{x}/{y}?access_token=YOUR_ACCESS_TOKEN_HERE"
                      , attribution = 'Maps by <a href="http://www.mapbox.com/">Mapbox</a>') %>%                                               
             addRasterImage(precip, layerId= "Rainfall"
                            , colors=rgb(0/555, 1:445/450, 5/100), opacity = 0.8) %>%
